@@ -1,0 +1,14 @@
+{
+  "name": "node_rest_api",
+  "version": "1.0.0",
+  "description": "REST API written in Node.js",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Moraes",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.4.12"
+  }
+}
