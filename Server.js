@@ -27,12 +27,11 @@ router.route('/users')
             var user = new User();
 
             user.userEmail = req.body.email;
-                            /*user.userPassword = require('crypto')
+            user.userPassword = require('crypto')
                              .createHash('sha256')
                              .update(req.body.password)
-                             .digest('hex');*/
-            user.userPassword = req.body.password;
-console.log(user);
+                             .digest('hex');
+
             user.save(function (err) {
                 if (err)
                     res.send(err);
